@@ -1,3 +1,5 @@
+@import '~bootstrap/scss/bootstrap';
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.modal-header .close {
+  padding: 1rem 1rem;
+  margin: -2.3rem -1rem -1rem;
+}
+
+.modal-content {
+  width: 393px;
+}
+
+.carousel-control-prev-icon {
+  background-color: grey;
+}
+
+.carousel-control-next-icon {
+  background-color: grey;
 }
